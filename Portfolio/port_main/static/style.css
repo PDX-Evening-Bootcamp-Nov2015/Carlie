@@ -3,14 +3,22 @@ body {
   color: bisque;
 }
 h1 {
-  font-family: Monofett, sans-serif;
+  font-family: monofett, sans-serif;
   font-weight: 100;
   color: darkturquoise;
-  font-size: 6em;
+  font-size: 7em;
   text-align: center;
   border-bottom: thick solid;
   border-bottom-color: gold;
   margin: 0;
+  animation-name: colours;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes colours {
+  from {color: darkturquoise;}
+  to {color: palegreen;}
 }
 .listy {
   text-align: left;
