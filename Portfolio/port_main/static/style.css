@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  color: bisque;
+}
+h1 {
+  font-family: Monofett, sans-serif;
+  font-weight: 100;
+  color: darkturquoise;
+  font-size: 6em;
+  text-align: center;
+  border-bottom: thick solid;
+  border-bottom-color: gold;
+  margin: 0;
+}
+.listy {
+  text-align: left;
+}
+.sidenav {
+  list-style-type: none;
+  margin: 2;
+  padding: 8px;
+  background-color: bisque;
+  border-radius: 25px;
+  border: 2px darksalmon;
+  border-style: hidden hidden solid solid;
+  box-shadow: -5px 8px 6px lightsalmon;
+
+}
+.sidenav li {
+  display: inline;
+}
+.sidenav a {
+  display: inline-block;
+  /*width: 125px;*/
+  color: black;
+  padding: 8px 0 8px 16px;
+  text-decoration: none;
+  font-family: syncopate, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  padding-right: 15px;
+}
+li a:hover {
+  background-color: black;
+  color: lightsalmon;
+  border-radius: 25px;
+  /*width: 140px;*/
+}

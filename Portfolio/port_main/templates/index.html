@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Carolyn's Portfolio</title>
+    <link rel='stylesheet' href='static/style.css' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Monofett" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Syncopate" />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <ul class="sidenav">
+      <li><a href="AngryDice">Angry Dice</a></li>
+      <li><a href="JavaPic">JavaPic</a></li>
+      <li><a href="RandomQuote">Random Quote</a></li>
+
+    </ul>
+
+    <div class='listy'>{{ body_text }}
+      <ul>
+        {% for item in reasons %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </body>
+</html>
